@@ -10,14 +10,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WillSchiller/lyra-liquidation-alerts"
+    "url": "https://github.com/Lyra-Grants/lyra-avalon-liquidation-alerts"
   },
   "dependencies": {
     "@lyrafinance/lyra-js": "0.0.13",
     "dotenv": "^16.0.1",
     "ethers": "^5.6.8",
     "faunadb": "^4.5.4",
-    "telegraf": "^4.8.4"
+    "telegraf": "^4.8.4",
+    "web3": "^1.7.3"
   },
   "devDependencies": {
     "@types/node": "^17.0.40",

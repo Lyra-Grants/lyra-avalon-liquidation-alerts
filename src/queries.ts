@@ -5,7 +5,7 @@ const fauna = faunaClient()
 export function PushToDB(data: object) {
   let query = fauna.client.query(
     fauna.cursor.Create(
-      fauna.cursor.Collection('test'),
+      fauna.cursor.Collection('Order'),
       { data: data }
     )
   )
@@ -15,12 +15,8 @@ export function PushToDB(data: object) {
 //
 export async function idExists(id: number) {
   let arr = []
-  try {
-    let query = fauna.client.paginate(fauna.cursor.Match(fauna.cursor.Index('test_'), id))
-    await query.each((page) => {arr = page})
-  } catch (error) {
-      console.log(error)
-  }
+  let query = fauna.client.paginate(fauna.cursor.Match(fauna.cursor.Index('isIndexed'), id))
+  await query.each((page) => {arr = page})
   if (arr[0] === id) {
     return true
   } else {

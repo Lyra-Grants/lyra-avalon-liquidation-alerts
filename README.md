@@ -2,7 +2,7 @@
 
 ###  *Currently in early development and NOT ready for use.*
 
-A Telegram & Discord bot providing liquidation alerts via Telegram & Discord. Traders can sign up and receive notifications about trading activity, most significantly liquidations. Since trades are time critical, this feature allows traders to quickly react to their own trades or trades from another trader they follow.
+A bot providing liquidation alerts via Telegram & Discord. Traders can sign up and receive notifications about trading activity, most significantly liquidations. Since trades are time critical, this feature allows traders to quickly react to their own trades or trades from another trader they follow.
 
 
 ### Goal
@@ -16,7 +16,7 @@ A Telegram & Discord bot providing liquidation alerts via Telegram & Discord. Tr
 * Get alerts for significant price movements (spot price / option values changed by certain %) - Customisable
 
 
-## Getting Starting
+## Quick Start
 
  1. Update ```.env.example ``` to ```.env``` and add your credentials
  2. Run ```npm install``` 
@@ -26,7 +26,6 @@ A Telegram & Discord bot providing liquidation alerts via Telegram & Discord. Tr
 ## Using The Bot
 
 ...Instructions to be added here. 
-
 
 
 ## Tech Stack 

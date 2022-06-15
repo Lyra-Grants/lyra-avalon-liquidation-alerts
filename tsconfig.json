@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
       // ... rest
-      "typeRoots": ["./node_modules/@types", "./src/types"]
+      "typeRoots": ["./node_modules/@types", "./src/types"],
+      "esModuleInterop": true,
     }
   }
   
