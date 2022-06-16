@@ -1,4 +1,4 @@
-import faunaClient from './clients/faunaClient';
+import faunaClient from './faunaClient';
 
 const fauna = faunaClient()
 
@@ -12,7 +12,6 @@ export function PushToDB(data: object) {
   query.then(response => response)
 }
 
-//
 export async function idExists(id: number) {
   let arr = []
   let query = fauna.client.paginate(fauna.cursor.Match(fauna.cursor.Index('isIndexed'), id))

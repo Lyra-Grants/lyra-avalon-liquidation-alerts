@@ -24,7 +24,6 @@ A bot providing liquidation alerts via Telegram & Discord. Traders can sign up a
 
 
 ## Using The Bot
-
 ...Instructions to be added here. 
 
 
@@ -35,4 +34,5 @@ A bot providing liquidation alerts via Telegram & Discord. Traders can sign up a
 * Lyra.js
 * Telegraf.js
 * FaunaDB
+
 
